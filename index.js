@@ -1,6 +1,8 @@
 var restify=requrie("restify");
 
-var server=restify.createServer();
+var server=restify.createServer({
+	name:"My First Restify Server",
+});
 
 
 
